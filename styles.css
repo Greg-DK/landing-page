@@ -1,0 +1,55 @@
+.dark-container {
+    background-color: #1F2937;
+    display: flex;
+}
+
+.white-container {
+    background-color: white;
+    display: flex;
+    flex-direction: column;
+}
+
+.blue-container {
+    border-radius: 25px;
+    background-color: #3882F6;
+    display: flex;
+    padding: 20px;
+}
+
+.navbar,
+.logo {
+    display:flex;
+    font-family: Arial, Helvetica, sans-serif;
+    flex: 1 1 0;
+}
+
+.logo {
+    font-size: 24px;
+    flex-basis: 50%;
+    color:#F9FAF8;
+}
+
+.navbar {
+    font-size: 18px;
+    color:#E5E7EB;
+}
+
+.image-holder {
+    display:flex;
+}
+
+.image-subs {
+    display:flex;
+}
+
+.images {
+    border-radius: 25px;
+    border: 3px solid #3882F6;
+    padding: 20px;
+    width: 200px;
+    height: 200px;
+}
+
+.call-to-action {
+    color:#E5E7EB;
+}
